@@ -59,3 +59,47 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# 📂 Aplikasi Arsip Transaksi Rumah Sakit
+
+Aplikasi ini digunakan untuk mengelola arsip transaksi dan data perusahaan di lingkungan rumah sakit.  
+Dibangun menggunakan **Laravel 12** dan **Filament v3** untuk memudahkan pengelolaan data melalui antarmuka admin yang modern.
+
+---
+
+## ✨ Fitur Utama
+
+- **Create Transaksi**  
+  Menambahkan data transaksi baru lengkap dengan informasi kode kegiatan, tanggal, bukti pembayaran, dan catatan.
+
+- **Create Perusahaan**  
+  Menambahkan data perusahaan yang menjadi mitra transaksi.
+
+- **View Perusahaan**  
+  Melihat daftar perusahaan yang telah terdaftar beserta detail informasinya.
+
+- **View Transaksi**  
+  Melihat daftar transaksi berdasarkan perusahaan atau seluruh transaksi yang pernah dibuat.
+
+- **Transaksi Terbaru di Dashboard**  
+  Menampilkan daftar transaksi terbaru langsung di halaman dashboard admin.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Laravel 12**
+- **Filament v3**
+- **PHP 8.2+**
+- **MySQL 8+**
+- **Laragon / XAMPP** (opsional untuk pengembangan lokal)
+
+---
+
+## 🚀 Instalasi
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/username/nama-repo.git
+   cd nama-repo
+
