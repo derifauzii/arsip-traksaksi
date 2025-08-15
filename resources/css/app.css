@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === BASE === */
+body {
+    @apply bg-[#eaf6fb] text-[#1e293b];
+}
+
+/* === SIDEBAR === */
+.sidebar {
+    @apply bg-[#d0e8f2] text-[#1e293b];
+}
+
+/* === TABLE === */
+table {
+    @apply bg-white text-[#1e293b] border border-[#cbd5e1];
+}
+
+thead {
+    @apply bg-[#a7d3f3] text-[#1e293b];
+}
+
+/* === BUTTONS === */
+button {
+    @apply bg-[#007bff] text-white hover:bg-[#0056b3];
+}
+
+/* === LINK / ICONS === */
+a,
+.fi-link {
+    @apply text-[#007bff] hover:text-[#0056b3];
+}
+
+/* === DARK MODE OVERRIDE === */
+.dark body {
+    @apply bg-gray-900 text-white;
+}
+
+button.bg-\[\#007bff\] {
+    @apply shadow-md rounded-md;
+}
+
+.btn-primary {
+    @apply bg-[#007bff] text-white px-4 py-2 rounded-lg shadow hover:bg-[#0056b3] transition duration-200 text-sm font-medium;
+}

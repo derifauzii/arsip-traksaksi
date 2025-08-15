@@ -1,0 +1,40 @@
+/* Sidebar (menu kiri) */
+.fi-sidebar {
+    background-color: #e8f5e9 !important;
+    color: #2e7d32 !important;
+}
+
+/* Sidebar menu item */
+.fi-sidebar-nav-item {
+    color: #2e7d32 !important;
+}
+
+/* Active menu item */
+.fi-sidebar-nav-item-active {
+    background-color: #c8e6c9 !important;
+    color: #388e3c !important;
+}
+
+/* Hover efek di sidebar */
+.fi-sidebar-nav-item:hover {
+    background-color: #dcedc8 !important;
+    color: #2e7d32 !important;
+}
+
+/* Topbar/header */
+.fi-topbar {
+    background-color: #81c784 !important;
+    color: white !important;
+}
+
+/* Tombol (opsional) */
+.fi-button {
+    background-color: #66bb6a !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+/* Logo area (opsional) */
+.fi-sidebar-header {
+    background-color: #a5d6a7 !important;
+}
