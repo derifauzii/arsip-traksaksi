@@ -72,7 +72,14 @@ Dibangun menggunakan **Laravel 12** dan **Filament v3** untuk memudahkan pengelo
 Email : admin@gmail.com
 Password : admin123
 
+## 📷 Screenshot
+
+1. **Dashboard**
+2. **Form Input Perusahaan dan Transaksi**
+3. **List Perusahaan dan List Transaksi**
+4. **Detail Perusahaan dan Detail Transaksi**
 ---
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
