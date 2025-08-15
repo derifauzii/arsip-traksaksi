@@ -1,3 +1,79 @@
+# 📂 Aplikasi Arsip Transaksi Rumah Sakit
+
+Aplikasi ini digunakan untuk mengelola arsip transaksi dan data perusahaan di lingkungan rumah sakit.  
+Dibangun menggunakan **Laravel 12** dan **Filament v3** untuk memudahkan pengelolaan data melalui antarmuka admin yang modern.
+
+---
+
+## ✨ Fitur Utama
+
+- **Create Transaksi**  
+  Menambahkan data transaksi baru lengkap dengan informasi kode kegiatan, tanggal, bukti pembayaran, dan catatan.
+
+- **Create Perusahaan**  
+  Menambahkan data perusahaan yang menjadi mitra transaksi.
+
+- **View Perusahaan**  
+  Melihat daftar perusahaan yang telah terdaftar beserta detail informasinya.
+
+- **View Transaksi**  
+  Melihat daftar transaksi berdasarkan perusahaan atau seluruh transaksi yang pernah dibuat.
+
+- **Transaksi Terbaru di Dashboard**  
+  Menampilkan daftar transaksi terbaru langsung di halaman dashboard admin.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Laravel 12**
+- **Filament v3**
+- **PHP 8.2+**
+- **MySQL 8+**
+- **Laragon / XAMPP** (opsional untuk pengembangan lokal)
+
+---
+
+## 🚀 Instalasi
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/username/nama-repo.git
+   cd nama-repo
+   ```
+2.**Install Depedencies**
+   ```bash
+   composer install
+   ```
+3. **Konfigurasi Environment**
+   - Salin file .env.example menjadi .env
+   - Ubah pengaturan database sesuai kebutuhan:
+   ```bash
+    DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=dbarsip
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
+4. **Generate Key**
+   ```bash
+    php artisan key:generate
+   ```
+5. **Migrasi Seeder**
+   ```bash
+    php artisan migrate --seed
+   ```
+6. **Jalankan Server**
+   ```bash
+   php artisan serve
+   ```
+## 🔑 Login Awal
+Email : admin@gmail.com
+Password : admin123
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -60,46 +136,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-# 📂 Aplikasi Arsip Transaksi Rumah Sakit
-
-Aplikasi ini digunakan untuk mengelola arsip transaksi dan data perusahaan di lingkungan rumah sakit.  
-Dibangun menggunakan **Laravel 12** dan **Filament v3** untuk memudahkan pengelolaan data melalui antarmuka admin yang modern.
-
----
-
-## ✨ Fitur Utama
-
-- **Create Transaksi**  
-  Menambahkan data transaksi baru lengkap dengan informasi kode kegiatan, tanggal, bukti pembayaran, dan catatan.
-
-- **Create Perusahaan**  
-  Menambahkan data perusahaan yang menjadi mitra transaksi.
-
-- **View Perusahaan**  
-  Melihat daftar perusahaan yang telah terdaftar beserta detail informasinya.
-
-- **View Transaksi**  
-  Melihat daftar transaksi berdasarkan perusahaan atau seluruh transaksi yang pernah dibuat.
-
-- **Transaksi Terbaru di Dashboard**  
-  Menampilkan daftar transaksi terbaru langsung di halaman dashboard admin.
-
----
-
-## 🛠️ Teknologi yang Digunakan
-
-- **Laravel 12**
-- **Filament v3**
-- **PHP 8.2+**
-- **MySQL 8+**
-- **Laragon / XAMPP** (opsional untuk pengembangan lokal)
-
----
-
-## 🚀 Instalasi
-
-1. **Clone Repository**
-   ```bash
-   git clone https://github.com/username/nama-repo.git
-   cd nama-repo
 
